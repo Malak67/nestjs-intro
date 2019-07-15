@@ -8,7 +8,7 @@ import { ProductsModule } from './products/products.module';
   imports: [
     ProductsModule,
     MongooseModule.forRoot(
-      'mongodb+srv://fgeorgecu:prodigis@cluster0-tqdj6.mongodb.net/nestjs-intro?retryWrites=true&w=majority',
+      'mongodb+srv://<username>:<password>@cluster0-tqdj6.mongodb.net/nestjs-intro?retryWrites=true&w=majority',
       { useNewUrlParser: true },
     ),
   ],
